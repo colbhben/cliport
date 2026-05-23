@@ -27,6 +27,7 @@ from cliport.tasks.place_red_in_green import PlaceRedInGreen
 from cliport.tasks.put_block_in_bowl import PutBlockInBowlSeenColors
 from cliport.tasks.put_block_in_bowl import PutBlockInBowlUnseenColors
 from cliport.tasks.put_block_in_bowl import PutBlockInBowlFull
+from cliport.tasks.put_block_in_bowl_hitl import PutBlockInBowlHITL
 from cliport.tasks.stack_block_pyramid import StackBlockPyramid
 from cliport.tasks.stack_block_pyramid_seq import StackBlockPyramidSeqSeenColors
 from cliport.tasks.stack_block_pyramid_seq import StackBlockPyramidSeqUnseenColors
@@ -75,6 +76,7 @@ names = {
     'put-block-in-bowl-seen-colors': PutBlockInBowlSeenColors,
     'put-block-in-bowl-unseen-colors': PutBlockInBowlUnseenColors,
     'put-block-in-bowl-full': PutBlockInBowlFull,
+    'put-block-in-bowl-hitl': PutBlockInBowlHITL,
     'stack-block-pyramid-seq-seen-colors': StackBlockPyramidSeqSeenColors,
     'stack-block-pyramid-seq-unseen-colors': StackBlockPyramidSeqUnseenColors,
     'stack-block-pyramid-seq-full': StackBlockPyramidSeqFull,
